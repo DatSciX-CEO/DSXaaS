@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp add:*)",
+      "Bash(claude mcp remove:*)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "Bash(mkdir:*)",
+      "Bash(claude config list)",
+      "Bash(claude --version)",
+      "Bash(claude config get mcpServers)",
+      "Bash(claude mcp:*)",
+      "Bash(claude config get allowedTools)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(npx @modelcontextprotocol/server-github:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(docker:*)",
+      "WebFetch(domain:developers.google.com)",
+      "Bash(pip install:*)",
+      "Bash(python:*)"
+    ],
+    "deny": []
+  }
+}

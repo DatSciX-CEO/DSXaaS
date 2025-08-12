@@ -7,3 +7,6 @@ test/.claude/todos
 test/.qwen/tmp
 test/.qwen/installtion_id
 test/.qwen/.env
+.qwen/.env
+.env
+test/.env
